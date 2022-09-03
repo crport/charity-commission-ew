@@ -129,7 +129,7 @@ class CharityCommissionEW:
             if json:
                 fileext = self._cc['json_ext']
             else:
-                fileext = self._cc['txt_url']
+                fileext = self._cc['txt_ext']
             
             return 'publicextract.' + \
                     entity + \

@@ -15,16 +15,16 @@ from charitycommissionew import CharityCommissionEW as ccew
 
 # To a CSV file
 
-ccuk().to_file(entity='charity', filetype='csv', folder='./data')
+ccew().to_file(entity='charity', filetype='csv', folder='./data')
 
 # To a dict 
 
-charitydata = ccuk()
+charitydata = ccew()
 charitydata.to_dict(entity='charity')
 
 # To a CSV Reader object
 
-charitydata = ccuk()
+charitydata = ccew()
 charitydata.to_csv_reader(entity='charity')
 
 ```
